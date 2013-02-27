@@ -8,3 +8,13 @@ Original algorithm :
 [link](http://erich.realtimerendering.com/ptinpoly/)
 
 Algorithm ported from C : [link](http://stackoverflow.com/a/2922778)
+
+Args :   
+ 
+- pt - The point to test against
+- pos - The offset/position/translation of the polygon
+- verts - The local(relative) vertices of the polygon 
+
+Returns : 
+
+True if inside, False if not
